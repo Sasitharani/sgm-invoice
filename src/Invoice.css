@@ -1,0 +1,55 @@
+#invoice-container {
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.invoice-content {
+  font-family: Arial, sans-serif;
+}
+
+.invoice-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.company-info {
+  flex-grow: 1;
+}
+
+.company-name {
+  font-size: 24px;
+  color: #12a9e1;
+  font-weight: bold;
+}
+
+.company-address,
+.company-contact,
+.company-website {
+  font-size: 16px;
+}
+
+.invoice-title {
+  background-color: #75c043;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.invoice-body {
+  /* Styles for the body content */
+}
+
+.invoice-footer {
+  /* Styles for the footer content */
+}
